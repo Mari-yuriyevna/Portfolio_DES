@@ -73,7 +73,7 @@ void compared(int ret)
 	}
 }
 
-char plain(char message0[321], int message1[1284], char gett)
+char plain(char message0[321], int message1[1284])
 {
 	printf("\n >> Now, Enter your message in 320 charactres!");
 	printf("\n    If you have completed the input, please press the [ Enter key ].");
@@ -97,3 +97,4 @@ char plain(char message0[321], int message1[1284], char gett)
 	memset(&message1[j], 0, (1284 - j) * sizeof(int));
 	printf("\n >> GOOD JOB :)\n");
 }
+
